@@ -1,0 +1,85 @@
+/*body {
+	background-color: darkgray;
+	padding: 20px;
+	font-family: monospace;
+	font-size: 22px;
+}
+
+body h1 {
+	background-color: tomato;
+	border: solid 1px;
+	max-width: max-content;
+	padding: 10px;
+	width: 80%;
+    margin: auto;
+}
+
+main {
+	background-color: tomato;
+	border: solid 1px;
+	max-width: max-content;
+	padding: 10px;
+}*/
+
+body {
+	background-color: darkgray;
+	padding: 20px;
+	font-size: 22px;
+	display: flex;
+    align-items: center;
+}
+
+main {
+	background-color: antiquewhite;
+	padding: 20px;
+	margin-right: 50px;
+	border: solid;
+	flex-grow: 1;
+}
+
+main h1 {
+	color: orangered;
+	text-align: center;
+	font-size: 45px; /*Можно поставить 40px*/
+	max-width: max-content;
+	border-bottom: dashed 3px darkgray;
+	width: 80%;
+    margin: auto;
+}
+
+main p {
+	padding-left: 10%;
+	max-width: max-content;
+}
+
+.underline {
+	border-bottom: double 3px brown;
+	display: inline;
+}
+
+main h2 {
+	max-width: max-content;
+	border-bottom: dashed 3px darkgray;
+}
+
+aside {
+	background-color: pink;
+	padding: 20px;
+	border: solid;
+	max-width: 25%;
+}
+
+aside > h1 {
+	color: red;
+	text-align: center;
+	font-size: 45px;
+	max-width: max-content;
+	width: 80%;
+    margin: auto;
+	border-bottom: dashed 3px darkgray;
+}
+
+aside li {
+	font-family: emoji;
+	padding: 5px 5px 10px 5px;
+}
