@@ -108,8 +108,8 @@ aside li {
 
 @media (min-width: 320px) and (max-width:767px) {
 	html {
-		width: 1280px;
-		height: 1024px;
+		width: 180px;
+		height: 124px;
 	}
 	body {
 		background-color: yellow;
