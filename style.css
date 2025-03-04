@@ -99,3 +99,9 @@ aside li {
 	font-family: emoji;
 	padding: 5px 5px 10px 5px;
 }
+
+@media (width: 720px){
+	body {
+		background-color: tomato;
+	}
+}
